@@ -2,10 +2,10 @@ function display(){
 
 
 
-    let firstname = document.forms["form1"]["firstname"].value;
-    let lastname = document.forms["form1"]["lastname"].value;
-    let age = document.forms["form1"]["age"].value;
-    let job = document.forms["form1"]["job"].value;
+    let firstname = document.getElementById("firstname").value;
+    let lastname = document.getElementById("lastname").value;
+    let age = document.getElementById("age").value;
+    let job = document.getElementById("job").value;
 
     let len = firstname.length;
     let text = document.getElementById("disp");
