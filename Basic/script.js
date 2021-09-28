@@ -1,9 +1,11 @@
 function display(){
 
-    var firstname = document.forms["form1"]["firstname"].value;
-    var lastname = document.forms["form1"]["lastname"].value;
-    var age = document.forms["form1"]["age"].value;
+    let firstname = document.forms["form1"]["firstname"].value;
+    let lastname = document.forms["form1"]["lastname"].value;
+    let age = document.forms["form1"]["age"].value;
 
-    document.write("My name is " + firstname+" "+lastname+" and I am "+age+" years old.");
+    result = document.getElementById("display"); 
+
+    result.innerHTML = 'My name is '+firstname+' '+lastname+' and I am '+age+' years old.'
 }
 
