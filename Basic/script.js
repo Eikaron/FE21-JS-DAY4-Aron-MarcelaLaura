@@ -1,7 +1,5 @@
 function display(){
 
-
-
     let firstname = document.getElementById("firstname").value;
     let lastname = document.getElementById("lastname").value;
     let age = document.getElementById("age").value;
