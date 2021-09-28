@@ -5,6 +5,7 @@ function display(){
     let firstname = document.forms["form1"]["firstname"].value;
     let lastname = document.forms["form1"]["lastname"].value;
     let age = document.forms["form1"]["age"].value;
+    let job = document.forms["form1"]["job"].value;
 
     let len = firstname.length;
     let text = document.getElementById("disp");
@@ -16,8 +17,11 @@ function display(){
     else {
         text.style.color = "green";
     }
+   
     
-    text.innerHTML = 'My name is '+firstname+' '+lastname+' and I am '+age+' years old.';
+    
+
+    text.innerHTML = 'My name is '+firstname+' '+lastname+' and I am '+age+' years old. My job is in '+job;
 
 }
 
