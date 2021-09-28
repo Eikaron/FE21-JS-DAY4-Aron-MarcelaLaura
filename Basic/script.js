@@ -17,8 +17,16 @@ function display(){
     else {
         text.style.color = "green";
     }
+
    
-    
+    if (job =="IT"){
+        text.style.background = "pink";
+    }
+
+    else {
+        text.style.background = "yellow";
+    }
+
     
 
     text.innerHTML = 'My name is '+firstname+' '+lastname+' and I am '+age+' years old. My job is in '+job;
