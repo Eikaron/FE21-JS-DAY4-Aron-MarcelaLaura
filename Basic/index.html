@@ -11,17 +11,19 @@
 <body>
 
   
-    <div id="myForm">
+    <div id="thisfor5">
     <form name="form1">
         First name: <input type="text" name="firstname" placeholder="First name"> <br>
         Last name: <input type="text" name="lastname" placeholder="Last name"> <br>
         Age: <input type="number" name="age" placeholder="Age" >
 
-        <input type="submit" value="Submit" onclick="return display()">
+        <input type="submit" value="Submit" onclick="display(); return false">
     </form>
     </div>
 
-    <div id="display" class="bg-primary"></div>
+    <br>
+
+    <div id="disp" class="bg-light"></div>
 
     
     <script src="script.js"></script>
